@@ -1,4 +1,6 @@
-class ComplexNumber{
+package test;
+
+public class ComplexNumber{
 	private float a;
 	private float b;
 	private float newA;

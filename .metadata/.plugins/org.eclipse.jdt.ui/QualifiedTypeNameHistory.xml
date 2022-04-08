@@ -9,6 +9,11 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="week05.Node"/>
     <fullyQualifiedTypeName name="week05.Slist"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="week05.SList"/>
+    <fullyQualifiedTypeName name="test.ArrayList"/>
+    <fullyQualifiedTypeName name="week04.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="test.ArrayListInterface"/>
+    <fullyQualifiedTypeName name="test.Node"/>
 </qualifiedTypeNameHistroy>
