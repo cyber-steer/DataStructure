@@ -16,4 +16,6 @@
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="test.ArrayListInterface"/>
     <fullyQualifiedTypeName name="test.Node"/>
+    <fullyQualifiedTypeName name="ListStack"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalStateException"/>
 </qualifiedTypeNameHistroy>
