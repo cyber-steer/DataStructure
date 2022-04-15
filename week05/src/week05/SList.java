@@ -5,6 +5,7 @@ public class SList <E extends Comparable<E>> {
 	
 	protected Node0 head;  // 연결 리스트의 첫 노드 가리킴
 	private   int  size;
+	
 	public Node0 getHead() { return head; }
 	public void setHead(Node0 n) { head= n;}
 	public SList(){       // 연결 리스트 생성자

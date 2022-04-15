@@ -1,60 +1,29 @@
 package test;
 
-public class Node<E> implements ArrayListInterface<E> {
-	private E items;
+public class Node<E> {
+	private E item;
 	private Node<E> next;
 	
-	public Node() {
-		
+	public Node(E items) {
+		this.item = items;
+	}
+	public Node(E item, Node<E> next) {
+		this.item = item;
+		this.next = next;
+	}
+	public E getItem() {
+		return item;
 	}
 
-	@Override
-	public void add(int i, E x) {
+	public void setItem(E items) {
+		this.item = items;
 	}
 
-	@Override
-	public void append(E x) {
-		
+	public Node<E> getNext() {
+		return next;
 	}
 
-	@Override
-	public E remove(int i) {
-		return null;
+	public void setNext(Node<E> next) {
+		this.next = next;
 	}
-
-	@Override
-	public boolean removeItem(E x) {
-		return false;
-	}
-
-	@Override
-	public E get(int i) {
-		return null;
-	}
-
-	@Override
-	public void set(int i, E x) {
-		
-	}
-
-	@Override
-	public int indexOf(E x) {
-		return 0;
-	}
-
-	@Override
-	public int len() {
-		return 0;
-	}
-
-	@Override
-	public boolean isEmpty() {
-		return false;
-	}
-
-	@Override
-	public void clear() {
-		
-	}
-	
 }

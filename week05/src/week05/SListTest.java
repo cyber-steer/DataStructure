@@ -1,5 +1,4 @@
 package week05;
-import week05.SList;
 public class SListTest {
 	public static void main(String[] args) {
 		SList<String> s = new SList<String>();
