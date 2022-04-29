@@ -17,8 +17,15 @@ public class ArrayStack<E> implements StackInterface<E> {
 	
 	// [알고리즘 6-1] 구현: 스택에 원소 x 삽입하기
 	public void push(E newItem) {
-		if (isFull()) { /* 에러 처리 */ }
-		else stack[++topIndex] = newItem;
+		if (isFull()) { 
+			E[] newStack = (E[]) new Object[stack.length*2];
+			for(int i =0; i<=topIndex;i++) {
+				newStack[i] = stack[i];
+			}
+			stack = newStack;
+			
+		}
+		stack[++topIndex] = newItem;
 	}
 	
 	// [알고리즘 6-2] 구현: 스택에서 원소 삭제하기

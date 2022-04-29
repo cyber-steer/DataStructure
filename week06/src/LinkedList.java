@@ -1,4 +1,5 @@
-package list;
+
+
 
 public class LinkedList<E> implements ListInterface<E> {
 	private Node<E> head;
@@ -58,15 +59,14 @@ public class LinkedList<E> implements ListInterface<E> {
 
 	// [알고리즘 5-13] 구현: 연결 리스트의 k번째 원소 알려주기
 	public E get(int index) {
-		if (index >= 0 && index <= numItems - 1) {
+		if (index >= 0 && index < numItems) {
 			return getNode(index).item;
 		} else
 			return null; 		// 에러
 	}
  
 		public Node<E> getNode(int index) {
-		if (index >= -1 && index <= numItems - 1) {
-			System.out.println(numItems);
+		if (index >= -1 && index <numItems) {
 			Node<E> currNode = head;  	// 더미 노드
 			for (int i = 0; i <= index; i++) {
 				currNode = currNode.next;
@@ -79,7 +79,7 @@ public class LinkedList<E> implements ListInterface<E> {
 
 	// [알고리즘 5-14] 구현:연결 리스트의 k번째 원소를 x로 대체하기
 	public void set(int index, E x) {
-		if (index >= 0 && index <= numItems - 1) {
+		if (index >= 0 && index <numItems) {
 			getNode(index).item = x;
 		} else { /* 에러 처리 */ }
 	}
@@ -88,8 +88,8 @@ public class LinkedList<E> implements ListInterface<E> {
 	public final int NOT_FOUND = -12345;
 	public int indexOf(E x) {
 		Node<E> currNode = head;   // 더미 노드
-		int i;
-		for (i = 0; i < numItems; i++) {
+//		int i;
+		for (int i = 0; i < numItems; i++) {
 			currNode = currNode.next;
 			if (((Comparable)(currNode.item)).compareTo(x) == 0)
 				return i;
@@ -123,6 +123,13 @@ public class LinkedList<E> implements ListInterface<E> {
 		System.out.println();
 	}
 	public void printReverse() {
-		
+		LinkedStack<E> stack = new LinkedStack<E>();
+		while(head.next != null) {
+			head = head.next;
+			stack.push(head.item);
+		}
+		while(!stack.isEmpty()) {
+			System.out.println(stack.pop());
+		}
 	}
 } // 코드 5-9

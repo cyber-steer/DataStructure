@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.security.PublicKey"/>
-    <fullyQualifiedTypeName name="java.util.Deque"/>
     <fullyQualifiedTypeName name="week03.Basic1"/>
     <fullyQualifiedTypeName name="week03.BasicEx"/>
     <fullyQualifiedTypeName name="javax.sound.midi.Soundbank"/>
@@ -19,7 +18,20 @@
     <fullyQualifiedTypeName name="test.LinkedList"/>
     <fullyQualifiedTypeName name="test.Node"/>
     <fullyQualifiedTypeName name="temp.TV"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="temp.Main"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="temp.Test2"/>
+    <fullyQualifiedTypeName name="ArrayQueue"/>
+    <fullyQualifiedTypeName name="ArrayStack"/>
+    <fullyQualifiedTypeName name="Node"/>
+    <fullyQualifiedTypeName name="LinkedStack"/>
+    <fullyQualifiedTypeName name="LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.SliderUI"/>
+    <fullyQualifiedTypeName name="list.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.ArrayDeque"/>
+    <fullyQualifiedTypeName name="java.util.Deque"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>
