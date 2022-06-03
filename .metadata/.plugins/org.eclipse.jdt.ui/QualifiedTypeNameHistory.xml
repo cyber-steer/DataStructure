@@ -42,4 +42,10 @@
     <fullyQualifiedTypeName name="Heap"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="TreeNode"/>
+    <fullyQualifiedTypeName name="week14.AdjMatrix"/>
+    <fullyQualifiedTypeName name="week14.StackNode"/>
+    <fullyQualifiedTypeName name="week14.GraphNode"/>
+    <fullyQualifiedTypeName name="week14.LinkedStack"/>
+    <fullyQualifiedTypeName name="week14.LinkedQueue"/>
+    <fullyQualifiedTypeName name="week14.AdjList"/>
 </qualifiedTypeNameHistroy>
